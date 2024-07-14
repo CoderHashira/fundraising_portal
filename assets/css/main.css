@@ -1,0 +1,59 @@
+.homepage {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+}
+
+.profile-card{
+    width: 400px;
+    height: 100px;
+}
+
+.user_profile {
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.back{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.contributions{
+    margin-left: 100px;
+    margin-top: 100px
+}
+
+#customers{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.back, a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
